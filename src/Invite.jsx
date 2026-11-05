@@ -51,7 +51,7 @@ export function InvitationBody() {
         <DecorativeCards />
         <span className="crownAccent crownAccent--one" aria-hidden="true">♛</span>
         <span className="crownAccent crownAccent--two" aria-hidden="true">♛</span>
-        <span className="crownAccent crownAccent--three" aria-hidden="true">♛</span>
+        
 
         <div className="playingCorner playingCorner--left" aria-hidden="true">Q<span>♥</span></div>
         <div className="playingCorner playingCorner--right" aria-hidden="true">Q<span>♥</span></div>
@@ -97,6 +97,7 @@ export function InvitationBody() {
           </div>
         </section>
         <br/>
+        <span className="crownAccent crownAccent--three" aria-hidden="true">♛</span>
         <div className="bottomMessage"><span aria-hidden="true">♥</span><p>{info.confirmText}</p><span aria-hidden="true">♥</span></div>
         <footer className="cardFooter" aria-hidden="true">♥  RED  ♥  QUEEN OF HEARTS  ♥</footer>
       </article>
