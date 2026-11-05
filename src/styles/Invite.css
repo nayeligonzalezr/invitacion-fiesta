@@ -715,7 +715,6 @@
   overflow: visible;
 }
 .crownAccent {
-  position: absolute;
   z-index: 1;
   font-size: 38px;
   color: #d9ab60;
@@ -724,7 +723,7 @@
 }
 .crownAccent--one { top: 128px; left: 56px; }
 .crownAccent--two { right: 58px; top: 424px; font-size: 32px; }
-.crownAccent--three { left: 50%; transform: translateX(-50%); bottom: 122px; font-size: 34px; }
+.crownAccent--three {  bottom: 122px; font-size: 34px; }
 
 .introCrownAccent {
   position: absolute;

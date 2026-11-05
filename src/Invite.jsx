@@ -96,7 +96,6 @@ export function InvitationBody() {
             </a>
           </div>
         </section>
-        <br/>
         <span className="crownAccent crownAccent--three" aria-hidden="true">♛</span>
         <div className="bottomMessage"><span aria-hidden="true">♥</span><p>{info.confirmText}</p><span aria-hidden="true">♥</span></div>
         <footer className="cardFooter" aria-hidden="true">♥  RED  ♥  QUEEN OF HEARTS  ♥</footer>
