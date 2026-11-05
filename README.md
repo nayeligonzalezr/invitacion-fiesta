@@ -15,7 +15,7 @@ Edita exclusivamente `src/config/info.jsx` para modificar fecha, hora, lugar, di
 
 ## Música
 
-La pista incluida `public/audio/red-theme.mp3` es un instrumental **original**, preparado para esta invitación, y no una canción de la película. Se inicia al pulsar «Abrir invitación» (sujeto a las restricciones del navegador) y tiene botón de pausar/reproducir. Puedes sustituir el archivo por un MP3 cuyo uso tengas autorizado manteniendo el mismo nombre, o modificar su ruta en `src/config/info.jsx`.
+La pista incluida `public/audio/red-theme.mp3` es un instrumental **original**, preparado para esta invitación, y no una canción de la película. Se solicita reproducir de inmediato al pulsar «Abrir invitación» y tiene botón de pausar/reproducir. Si el navegador bloquea la reproducción, aparece un aviso con un botón para activarla manualmente. El MP3 fue recodificado a 44.1 kHz estéreo para mayor compatibilidad. Puedes sustituir el archivo por un MP3 cuyo uso tengas autorizado manteniendo el mismo nombre, o modificar su ruta en `src/config/info.jsx`.
 
 ## Vista previa de WhatsApp
 

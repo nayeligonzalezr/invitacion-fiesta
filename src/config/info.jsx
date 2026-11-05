@@ -26,5 +26,5 @@ export const invitationInfo = {
     lowerLeft: "/images/chibi-red-sit.png",
     lowerRight: "/images/chibi-red-magic.png",
   },
-  music: "/audio/red-theme.mp3",
+  music: "/audio/red-theme.mp3?v=2",
 };

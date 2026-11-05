@@ -1321,3 +1321,35 @@
     top: 204px;
   }
 }
+
+
+/* Aviso discreto únicamente cuando el navegador bloquea el audio. */
+.musicNotice {
+  position: fixed;
+  z-index: 50;
+  top: 74px;
+  right: max(12px, calc(50% - 340px));
+  width: min(295px, calc(100vw - 24px));
+  padding: 11px 13px;
+  border: 1px solid #d5a66a;
+  border-radius: 15px;
+  background: rgba(27, 9, 18, .96);
+  color: #fff2df;
+  box-shadow: 0 10px 28px #09020788;
+  font: 600 12px/1.5 var(--sans);
+  text-align: center;
+}
+.musicNotice button {
+  display: block;
+  margin: 9px auto 0;
+  padding: 7px 12px;
+  border: 1px solid #d8ac68;
+  border-radius: 18px;
+  color: #fff0d7;
+  background: #971333;
+  font: 800 11px var(--serif);
+  cursor: pointer;
+}
+@media (max-width: 620px) {
+  .musicNotice { right: 12px; top: 60px; }
+}
