@@ -1,0 +1,25 @@
+ACTUALIZACIONES DE ESTA ENTREGA
+
+Esta entrega parte de la versión con tarjeta curva, paneles oscuros y tipografía dorada.
+
+1. Portada: una única muñeca estática a la DERECHA del título.
+   Mantiene la corona encima, “Estás invitado a celebrar”, “Mi cumpleaños #8”
+   y el botón “Abrir invitación”. Evita la gran franja vertical vacía.
+2. Invitación interior: la dirección se muestra a ancho completo y
+   la muñeca del salón se coloca en una fila separada, junto al botón
+   “Ver ubicación”. No está superpuesta sobre la dirección ni el título.
+3. Carta de la zona superior derecha: se eleva sobre el panel oscuro
+   en lugar de quedar por detrás.
+4. Se conservan fecha, hora, ubicación, música, colores y bordes curvos.
+
+CÓMO ABRIR
+  npm install
+  npm run dev
+
+PARA PRODUCCIÓN
+  npm run build
+
+DATOS DE LA FIESTA
+  src/config/info.jsx
+
+Para el enlace de WhatsApp, configurar VITE_PUBLIC_SITE_URL con el dominio final.
